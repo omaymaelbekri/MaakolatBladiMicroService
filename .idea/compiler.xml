@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Restorant" />
+        <module name="Compte" />
+        <module name="Administrateur" />
+        <module name="Plat" />
+        <module name="Commentaire" />
+        <module name="Recette" />
+        <module name="discorver" />
+        <module name="Role" />
+        <module name="cofingServer" />
+        <module name="Gateway" />
+        <module name="interaction" />
+        <module name="Region" />
+        <module name="Utilisateur" />
+        <module name="Ville" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Administrateur" options="-parameters" />
+      <module name="Commentaire" options="-parameters" />
+      <module name="Compte" options="-parameters" />
+      <module name="Gateway" options="-parameters" />
+      <module name="Plat" options="-parameters" />
+      <module name="Recette" options="-parameters" />
+      <module name="Region" options="-parameters" />
+      <module name="Restorant" options="-parameters" />
+      <module name="Role" options="-parameters" />
+      <module name="Utilisateur" options="-parameters" />
+      <module name="Ville" options="-parameters" />
+      <module name="cofingServer" options="-parameters" />
+      <module name="discorver" options="-parameters" />
+      <module name="interaction" options="-parameters" />
+    </option>
+  </component>
+</project>

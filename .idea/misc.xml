@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/Plat/pom.xml" />
+        <option value="$PROJECT_DIR$/Role/pom.xml" />
+        <option value="$PROJECT_DIR$/Ville/pom.xml" />
+        <option value="$PROJECT_DIR$/Compte/pom.xml" />
+        <option value="$PROJECT_DIR$/Region/pom.xml" />
+        <option value="$PROJECT_DIR$/Gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/Recette/pom.xml" />
+        <option value="$PROJECT_DIR$/discorver/pom.xml" />
+        <option value="$PROJECT_DIR$/Restorant/pom.xml" />
+        <option value="$PROJECT_DIR$/Commentaire/pom.xml" />
+        <option value="$PROJECT_DIR$/Utilisateur/pom.xml" />
+        <option value="$PROJECT_DIR$/cofingServer/pom.xml" />
+        <option value="$PROJECT_DIR$/Administrateur/pom.xml" />
+        <option value="$PROJECT_DIR$/interaction/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="jpab" />
+  </component>
+</project>

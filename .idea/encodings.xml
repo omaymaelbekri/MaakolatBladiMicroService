@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/Administrateur/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Commentaire/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Compte/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Plat/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Recette/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Region/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Restorant/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Role/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Utilisateur/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Ville/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cofingServer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/discorver/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/interaction/src/main/java" charset="UTF-8" />
+  </component>
+</project>
