@@ -27,6 +27,11 @@ public class PlatController {
         return new ResponseEntity<>(plats, HttpStatus.OK);
     }
 
+    @GetMapping("platsResto/{id}")
+    public ResponseEntity<List<PlatDto>> getAllPlatsByIdResto(@PathVariable("id") Long id) {
+        List<PlatDto> plats = platService.getAllPlatsByIdResto(id);
+        return new ResponseEntity<>(plats, HttpStatus.OK);
+    }
     @GetMapping("/{id}")
     public ResponseEntity<PlatDto> getPlatById(@PathVariable("id") Long id) {
         PlatDto plat = platService.getPlatById(id);

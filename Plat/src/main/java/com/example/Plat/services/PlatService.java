@@ -30,6 +30,12 @@ public class PlatService implements IPlatService {
                 .map(plat -> modelMapper.map(plat, PlatDto.class))
                 .collect(Collectors.toList());
     }
+    public List<PlatDto> getAllPlatsByIdResto(long id) {
+        List<Plat> plats = platRepository.findAllByIdresto(id);
+        return plats.stream()
+                .map(plat -> modelMapper.map(plat, PlatDto.class))
+                .collect(Collectors.toList());
+    }
     @Override
 
     public PlatDto getPlatById(Long id) {

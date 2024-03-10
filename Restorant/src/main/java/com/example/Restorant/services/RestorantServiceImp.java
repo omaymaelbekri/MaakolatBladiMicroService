@@ -1,6 +1,7 @@
 package com.example.Restorant.services;
 
 
+import com.example.Restorant.clients.PlatClient;
 import com.example.Restorant.dtos.RestorantDto;
 import com.example.Restorant.entities.Restorant;
 import com.example.Restorant.repositories.RestorantRepository;
@@ -17,11 +18,13 @@ public class RestorantServiceImp implements RestorantService {
 
     private final RestorantRepository restorantRepository;
     private final ModelMapper modelMapper;
+    private  PlatClient platClient;
 
     @Autowired
     public RestorantServiceImp(RestorantRepository restorantRepository, ModelMapper modelMapper) {
         this.restorantRepository = restorantRepository;
         this.modelMapper = modelMapper;
+
     }
     @Override
     public List<RestorantDto> getAllRestorants() {
@@ -41,6 +44,7 @@ public class RestorantServiceImp implements RestorantService {
         restorant = restorantRepository.save(restorant);
         return modelMapper.map(restorant, RestorantDto.class);
     }
+
     @Override
     public void deleteRestorant(Long id) {
         restorantRepository.deleteById(id);
